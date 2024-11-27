@@ -7,16 +7,19 @@ header.innerHTML = `
     
     <h1 class="presentacion">Presentación: </h1>
     <p class="parrafo">Hola mi nombre es Leandro y hace ya cuatro años que estoy estudiando programación, se html, css, javascript, me especializo en la parte del Fronted, actualmente sigo perfeccionadome. Me gustaria poder tener experiencia laboral, ya que los unicos proyectos que realice fueron por mi cuenta.
-     
+
 </p>
- 
+
 </div>`
 
+    /* parrafotarjetas */
+    const parrafoUno = document.getElementById("parrafoUno")
+    parrafoUno.innerText =  ` Proyecto 1 `
 
     /* Tarjetas */
 let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">
-        
+
     <img src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
         
     <img src="tarjetas/proyecto2.jpg" alt="Proyecto uno" class="tarjeta2">

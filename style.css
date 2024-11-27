@@ -41,6 +41,15 @@ body{
 } 
 
 
+
+.parrafodetarjetas{
+    margin-left: 40%;
+    display: flex; 
+    gap: 20%;       
+    background-color: brown;                                              
+}
+
+
 .tarjetas{
     margin-top: 2%;
 }
