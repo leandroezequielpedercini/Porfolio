@@ -12,10 +12,22 @@ header.innerHTML = `
 
 </div>`
 
-    /* parrafotarjetas */
+    /* Parrafo 1 de las tarjetas */
     const parrafoUno = document.getElementById("parrafoUno")
     parrafoUno.innerText =  ` Proyecto 1 `
 
+
+    /* Parrafo 2 de las tarjetas */
+    const parrafoDos = document.getElementById("parrafoDos")
+    parrafoDos.innerText = `Proyecto 2`
+    
+    
+    /* parrafoTres */
+    const parrafoTres = document.getElementById("parrafoTres")
+    parrafoTres.innerText = `Proyecto 3`
+
+
+    
     /* Tarjetas */
 let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">

@@ -42,11 +42,30 @@ body{
 
 
 
-.parrafodetarjetas{
-    margin-left: 40%;
-    display: flex; 
-    gap: 20%;       
-    background-color: brown;                                              
+.ParrafoUnodelastarjetas{
+    margin-left: 17%;
+    padding-top: 2%;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+
+
+.ParrafoDosdelastarjetas{
+    margin-left: 47.6%;
+    margin-top: -1.7%;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+
+
+.ParrafoTresdelastarjetas{
+    margin-left: 76.9%;
+    margin-top: -1.7%;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration:underline;
 }
 
 
