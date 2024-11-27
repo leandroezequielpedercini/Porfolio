@@ -1,0 +1,75 @@
+    /* Totalidad de la pagina */
+*{
+        
+}
+
+body{
+    background-color: rgb(255, 253, 253);
+    border: solid blue;
+}
+
+    /* Imagen */
+    .img{
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 2%;
+    border: solid rgb(0, 0, 0)    }
+
+
+.div-header{
+    display: flex;
+    margin-right: 20%;
+}
+
+
+        /* Presentación */
+.presentacion{
+    padding-top: 3.5%;
+    margin-left: 5%;
+    text-decoration:underline;
+}
+
+
+    /* Pararrofo */
+.parrafo{
+    padding-top: 4%;
+    padding-left: 0.5%;
+    font-size: 25px;
+    color: blue;
+    font: bolder;
+    text-decoration: underline solid 4px;
+} 
+
+
+.tarjetas{
+    margin-top: 2%;
+}
+
+
+.tarjeta1{
+    width: 18.3%;
+    margin-left:  10%;
+    border: solid 15px;
+}
+
+
+.tarjeta2{  
+    width: 18.2%;
+    margin-left:  10%;
+    border: solid 15px;
+}
+
+
+.tarjeta3{
+    width: 18.3%;
+    margin-left:  10%;
+    border: solid 15px;
+}
+
+.formulario{
+    display:grid;
+    gap: 10px;
+    margin-left: 10%;
+    width: 50%;
+
+}
