@@ -34,7 +34,7 @@ body{
 .parrafo{
     padding-top: 4%;
     padding-left: 0.5%;
-    font-size: 25px;
+    font-size: 30px;
     color: blue;
     font: bolder;
     text-decoration: underline solid 4px;
@@ -70,7 +70,7 @@ body{
 
 
 .tarjetas{
-    margin-top: 2%;
+    margin-top: 100px;
 }
 
 
@@ -92,12 +92,76 @@ body{
     width: 18.3%;
     margin-left:  10%;
     border: solid 15px;
+
 }
 
 .formulario{
     display:grid;
-    gap: 10px;
+    gap: 20px;
     margin-left: 10%;
     width: 50%;
+    margin-top:150px;
+    
+}
+
+
+.parrago-fotter-uno{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: solid black;
+}
+
+
+.parrago-fotter-dos{
+
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: solid black;
+}
+
+.parrago-fotter-tres{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: solid black;
+}
+
+
+
+.flecha-abajo{
+    scale: 11%;
+    margin-left: 90%;
+    margin-top: -60%;
+
+}
+
+
+
+.lostresparrafos{
+    display: flex;
+    padding-left: 350px;
+    gap: 200px;
+    font-size: 17px; 
+    background-color: rgba(0, 0, 0, 0.486);
+    
+}
+
+
+@media  (max-width: 350px) {
+    
+    body{
+        background-color: red;
+        scale: 300px;
+        /* margin-top: -500px;*/
+        margin-right: 200px; 
+        height: 2075px;
+    }
+
+    .img{
+        width: 500px;
+        scale: 20%;
+    }
 
 }

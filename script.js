@@ -13,6 +13,7 @@ header.innerHTML = `
 </div>`
 
     /* Parrafo 1 de las tarjetas */
+    
     const parrafoUno = document.getElementById("parrafoUno")
     parrafoUno.innerText =  ` Proyecto 1 `
 
@@ -32,13 +33,16 @@ header.innerHTML = `
 let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">
 
-    <img src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
+    <img id="proyecto-uno" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
         
     <img src="tarjetas/proyecto2.jpg" alt="Proyecto uno" class="tarjeta2">
 
     <img src="tarjetas/proyecto3.jpg" alt="Proyecto uno" class="tarjeta3">
     
     </div>`
+
+    
+
 
 
     /* Formulario */
@@ -73,13 +77,26 @@ formulario.innerHTML = `
 </form>`
 
 
+    const flechaAbajo = document.getElementById("icono")
+    flechaAbajo.innerHTML = `<div class="flecha-abajo"  > <img src="icono/flecha.jpg" alt="flecha para abajo" </div> >`
+
+
+    document.getElementById("icono", addEventListener("click", function() {
+        
+    }))
+    
+
+        
+
 
     /* Footer */
 
     const fotter = document.getElementById("footer")
     fotter.innerHTML = `
-<div>
-    <p>Desarrollador web<p/>
+<div class="lostresparrafos">
+    <p class="parrago-fotter-uno">Desarrollador web<p/>
 
-    <p>Leandro Ezequiel Pedercini<p/>
+    <p class="parrago-fotter-dos">Front.End👨‍💻<p/>
+
+    <p class="parrago-fotter-tres"> Leandro Ezequiel Pedercini<p/>
 <div/>`
