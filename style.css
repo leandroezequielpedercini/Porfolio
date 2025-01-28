@@ -161,7 +161,7 @@ body{
         width: 1090px;
         scale: 20%;
         margin-top: -480px;
-        margin-left: -350px;
+        margin-left: -340px;
         border: solid 20px rgb(0, 0, 0)
     }
 
@@ -169,9 +169,8 @@ body{
         height: 20px;
         font-size: 30px;
         width: 50px;
-        background-color: red;
         padding-top: 250px;
-        margin-left: -678px;
+        margin-left: -778px;
         text-decoration:underline;
     }    
 
