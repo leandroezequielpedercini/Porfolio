@@ -156,12 +156,17 @@ body{
         scale: 300px;
         /* margin-top: -500px;*/
         margin-right: 200px; 
-        height: 2075px;
+        height: 2150px;
+        width: 330px;
     }
 
     .img{
-        width: 500px;
+       height: 1200px;
+        width: 900px;
         scale: 20%;
+        margin-top: -480px;
+        margin-left: -360px;
+        
     }
 
 }
