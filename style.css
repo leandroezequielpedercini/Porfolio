@@ -77,22 +77,21 @@ body{
 .tarjeta1{
     width: 18.3%;
     margin-left:  10%;
-    border: solid 15px;
+    border: solid 1px;
 }
 
 
 .tarjeta2{  
     width: 18.2%;
     margin-left:  10%;
-    border: solid 15px;
+    border: solid 1px;
 }
 
 
 .tarjeta3{
     width: 18.3%;
     margin-left:  10%;
-    border: solid 15px;
-
+    border: solid 1px;
 }
 
 .formulario{
@@ -142,7 +141,7 @@ body{
 .lostresparrafos{
     display: flex;
     padding-left: 350px;
-    gap: 200px;
+    gap: -33px;
     font-size: 17px; 
     background-color: rgba(0, 0, 0, 0.486);
     
@@ -184,4 +183,28 @@ body{
         text-decoration: underline solid 4px;
         
     } 
+
+    .ParrafoUnodelastarjetas{
+        display: grid;
+        gap: 200px;
+        background-color: rgb(0, 102, 255);
+        margin-top: -250px;
+        
+    }
+
+    .tarjetas{
+       display: grid;
+       gap: 1px;
+       scale: 2000%;
+       margin-top: 100px;
+       margin-left: 500px;
+       
+    }
+
+    .tarjeta2{  
+    width: 18.2%;
+    margin-left:  10%;
+
+}
+    
 }
