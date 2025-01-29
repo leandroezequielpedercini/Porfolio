@@ -15,7 +15,7 @@ header.innerHTML = `
     /* Parrafo 1 de las tarjetas */
     
     const parrafoUno = document.getElementById("parrafoUno")
-    parrafoUno.innerText =  ` Proyecto 1 `
+    parrafoUno.innerHTML =  ` <h4 class="parrafo-uno">Proyecto 1</h4> `
 
 
     /* Parrafo 2 de las tarjetas */
