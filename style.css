@@ -193,18 +193,18 @@ body{
     }
 
     .tarjetas{
-       display: grid;
-       gap: 1px;
-       scale: 2000%;
-       margin-top: 100px;
-       margin-left: 500px;
-       
+      display: grid;
+      gap: 1px;
+      scale: 2000%;
+      margin-left: 423px;
+
+        
+      
+      
     }
 
-    .tarjeta2{  
-    width: 18.2%;
-    margin-left:  10%;
-
+ 
+ 
 }
     
 }
