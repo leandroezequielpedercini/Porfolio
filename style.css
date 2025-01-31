@@ -183,14 +183,14 @@ body{
         height: 20px;
         font-size: 30px;
         width: 50px;
-        padding-top: 250px;
+        margin-top: 290px;
         margin-left: -778px;
         text-decoration:underline;
     }    
 
     .parrafo{
         
-        padding-top: 290px;
+        padding-top: 320px;
         margin-left: -50px;
         font-size: 20px;
         color: blue;
@@ -219,7 +219,7 @@ body{
     display: grid;
     scale: 30%;
     margin-left: -150px;
-    margin-top: -850px;
+    margin-top: -980px;
     gap: 100px;
     }
 
