@@ -42,39 +42,54 @@ body{
 
 
 
-.ParrafoUnodelastarjetas{
-    margin-left: 17%;
-    padding-top: 2%;
-    font-size: 23px;
-    font-weight: bolder;
-    text-decoration:underline;
-}
-
-
-.ParrafoDosdelastarjetas{
-    margin-left: 47.6%;
-    margin-top: -1.7%;
-    font-size: 23px;
-    font-weight: bolder;
-    text-decoration:underline;
-}
-
-
-.ParrafoTresdelastarjetas{
-    margin-left: 76.9%;
-    margin-top: -1.7%;
-    font-size: 23px;
-    font-weight: bolder;
-    text-decoration:underline;
+.parrafo-uno{
+    margin-left: 20px;
 }
 
 
 .tarjetas{
-    margin-top: 100px;
+ text-align: center;
+ display: flex;
+ gap: 20px;
+ scale: 50%;
+ margin-left: -500px;
+ 
+ }
+
+
+.div-tarjetas-uno{
+
+        
+    
 }
 
 
+
+
+.nombre-proyecto-1{
+    
+}
+
+
+
+.div-tarjetas-dos{
+     
+}
+
+.nombre-proyecto-2{
+    
+}
+
+
+
+.tarjetas-tres{
+
+}
+
+
+/* 
 .tarjeta1{
+ 
     width: 18.3%;
     margin-left:  10%;
     border: solid 1px;
@@ -83,7 +98,7 @@ body{
 
 .tarjeta2{  
     width: 18.2%;
-    margin-left:  10%;
+    margin-left:  1000px;
     border: solid 1px;
 }
 
@@ -93,7 +108,7 @@ body{
     margin-left:  10%;
     border: solid 1px;
 }
-
+ */
 .formulario{
     display:grid;
     gap: 20px;
@@ -185,53 +200,28 @@ body{
     } 
 
 
-    .parrafo{
-      
-    }
+
+    
 
 
-    .ParrafoUnodelastarjetas{
-        margin-left: 185px;
 
 
-    }
 
-
-    .ParrafoUnodelastarjetas{
-        display: grid;
-        gap: 200px;
-        background-color: rgb(0, 102, 255);
-        margin-top: -200px;
-        
-    }
-
-
-    .ParrafoDosdelastarjetas{
-        margin-top: 200px;
-        
-    }
-
-
+   
 
     .parrafo-uno{
-        margin-left: 1px;
+       
     }
 
 
 
     .tarjetas{
-      display: grid;
-      gap: 2px;
-      scale: 2000%;
-      margin-left: 423px;
-      margin-top: -70px;
-
-        
-      
-      
+    display: grid;
+    scale: 40%;
+    margin-left: -150px;
+    margin-top: -850px;
+    gap: 100px;
     }
 
- 
- 
 }
     

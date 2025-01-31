@@ -12,35 +12,38 @@ header.innerHTML = `
 
 </div>`
 
-    /* Parrafo 1 de las tarjetas */
-    
-    const parrafoUno = document.getElementById("parrafoUno")
-    parrafoUno.innerHTML =  ` <h4 class="parrafo-uno">Proyecto 1</h4> `
 
-
-    /* Parrafo 2 de las tarjetas */
-    const parrafoDos = document.getElementById("parrafoDos")
-    parrafoDos.innerText = `Proyecto 2`
-    
-    
-    /* parrafoTres */
-    const parrafoTres = document.getElementById("parrafoTres")
-    parrafoTres.innerText = `Proyecto 3`
-
-
-    
     /* Tarjetas */
 let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">
 
-    <img id="proyecto-uno" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
+    <div class="div-tarjetas-uno" >
+      <h1 class="nombre-proyecto-1" > Proyecto 1 </h1>
+      <img id="proyecto-uno" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
+       </div>  
+     
+    <div class="div-tarjetas-dos" >
+    <h1 class="nombre-proyecto-1" >Proyecto 2</h1>
+     <img id="proyecto-dos" src="tarjetas/proyecto2.jpg" alt="Proyecto dos" class="tarjeta2">
+      </div>
+
+    <div class="div-tarjetas-tres" >
+    <h1 class="nombre-proyecto-3" >Proyecto 3</h1>
+     <img id="proyecto-tres" src="tarjetas/proyecto3.jpg" alt="Proyecto tres" class="tarjeta3">
+      </div>
+
+
+     </div>` 
+
+
+    document.getElementById("tarjetas",addEventListener("click", function(){
+        const primerproyecto = document.getElementById("proyecto-uno") = this.window
+        console.log(primerproyecto)
+    }
         
-    <img src="tarjetas/proyecto2.jpg" alt="Proyecto uno" class="tarjeta2">
+    ))
 
-    <img src="tarjetas/proyecto3.jpg" alt="Proyecto uno" class="tarjeta3">
     
-    </div>`
-
     
 
 
