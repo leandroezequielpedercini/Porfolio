@@ -217,9 +217,9 @@ body{
 
     .tarjetas{
     display: grid;
-    scale: 30%;
+    scale: 20%;
     margin-left: -150px;
-    margin-top: -980px;
+    margin-top: -1050px;
     gap: 100px;
     }
 
