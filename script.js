@@ -32,22 +32,29 @@ tarjetas.innerHTML = `<div class="tarjetas">
      <img id="proyecto-tres" src="tarjetas/proyecto3.jpg" alt="Proyecto tres" class="tarjeta3">
       </div>
 
-
      </div>` 
 
 
-    document.getElementById("tarjetas",addEventListener("click", function(){
-        const primerproyecto = document.getElementById("proyecto-uno") = this.window
-        console.log(primerproyecto)
+    const proyecuno = "https://leandroezequielpedercini.github.io/Proyecto-integrador/"
+
+    document.getElementById("proyecto-uno",addEventListener("click", function(){
+        window.open(proyecuno)
     }
-        
-    ))
+            ))
+
+
+    const proyecdos = "https://leandroezequielpedercini.github.io/Suma/"
+
+    document.getElementById("proyecto-dos",addEventListener("click", function(){
+        window.open(proyecdos)
+    }
+            ))
+
+    const proyectres = "https://leandroezequielpedercini.github.io/Deadpool/"
 
     
+
     
-
-
-
     /* Formulario */
 const formulario = document.getElementById("formulario")
 formulario.innerHTML = `
@@ -79,7 +86,6 @@ formulario.innerHTML = `
 
 </form>`
 
-
     const flechaAbajo = document.getElementById("icono")
     flechaAbajo.innerHTML = `<div class="flecha-abajo"  > <img src="icono/flecha.jpg" alt="flecha para abajo" </div> >`
 
@@ -88,18 +94,10 @@ formulario.innerHTML = `
         
     }))
     
-
-        
-
-
     /* Footer */
 
-    const fotter = document.getElementById("footer")
-    fotter.innerHTML = `
-<div class="lostresparrafos">
-    <p class="parrago-fotter-uno">Desarrollador web<p/>
+const footer = document.getElementById("footer")
+footer.innerHTML = `<div class="lostresparrafos">
+<p class="parrago-fotter-uno">Desarrollador web<p/> <p class="parrago-fotter-dos">Front.End👨‍💻<p/>
 
-    <p class="parrago-fotter-dos">Front.End👨‍💻<p/>
-
-    <p class="parrago-fotter-tres"> Leandro Ezequiel Pedercini<p/>
-<div/>`
+<p class="parrago-fotter-tres"> Leandro Ezequiel Pedercini<p/>div/>`

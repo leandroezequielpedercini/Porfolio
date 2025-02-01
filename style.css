@@ -87,28 +87,7 @@ body{
 }
 
 
-/* 
-.tarjeta1{
- 
-    width: 18.3%;
-    margin-left:  10%;
-    border: solid 1px;
-}
 
-
-.tarjeta2{  
-    width: 18.2%;
-    margin-left:  1000px;
-    border: solid 1px;
-}
-
-
-.tarjeta3{
-    width: 18.3%;
-    margin-left:  10%;
-    border: solid 1px;
-}
- */
 .formulario{
     display:grid;
     gap: 20px;
@@ -168,10 +147,11 @@ body{
     body{
         background-color: rgb(255, 253, 253);
         border: solid blue;
+        
     }
 
-   .img{
-       height: 1210px;
+    .img{
+    height: 1210px;
         width: 1090px;
         scale: 20%;
         margin-top: -480px;
@@ -196,6 +176,7 @@ body{
         color: blue;
         font: bolder;
         text-decoration: underline solid 4px;
+
         
     } 
 
@@ -221,6 +202,11 @@ body{
     margin-left: -150px;
     margin-top: -1050px;
     gap: 100px;
+    }
+
+
+    .formulario{
+        margin-top: -750px;
     }
 
 }
