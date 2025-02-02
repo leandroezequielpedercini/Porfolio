@@ -99,6 +99,7 @@ body{
 
 
 .parrago-fotter-uno{
+    margin-left: -200px;
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -107,15 +108,14 @@ body{
 
 
 .parrago-fotter-dos{
-
-    text-align: center;
+    margin-left: 500px;
     color: white;
     font-weight: bolder;
     border: solid black;
 }
 
 .parrago-fotter-tres{
-    text-align: center;
+    margin-left: 650px;
     color: white;
     font-weight: bolder;
     border: solid black;
@@ -123,16 +123,16 @@ body{
 
 
 
-.flecha-abajo{
+/* .flecha-abajo{
     scale: 11%;
     margin-left: 90%;
     margin-top: -60%;
 
 }
 
+ */
 
-
-.lostresparrafos{
+ .lostresparrafos{
     display: flex;
     padding-left: 350px;
     gap: -33px;
@@ -181,15 +181,6 @@ body{
     } 
 
 
-
-    
-
-
-
-
-
-   
-
     .parrafo-uno{
        
     }
@@ -209,5 +200,23 @@ body{
         margin-top: -750px;
     }
 
-}
-    
+    .parrago-fotter-uno{
+        font-size: 12px;
+        margin-left: -330px; 
+        
+    }
+
+    .parrago-fotter-dos{
+        font-size: 12px;
+        margin-left: 10px;
+        
+            }
+            
+            .parrago-fotter-tres{
+                font-size: 12px;
+                margin-left: 10px; }
+
+                .lostresparrafos{
+                    justify-content: center;
+                }
+}    

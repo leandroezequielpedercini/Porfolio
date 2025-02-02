@@ -19,7 +19,7 @@ tarjetas.innerHTML = `<div class="tarjetas">
 
     <div class="div-tarjetas-uno" >
       <h1 class="nombre-proyecto-1" > Proyecto 1 </h1>
-      <img id="proyecto-uno" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
+      <img id="primerProyecto" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
        </div>  
      
     <div class="div-tarjetas-dos" >
@@ -35,18 +35,19 @@ tarjetas.innerHTML = `<div class="tarjetas">
      </div>` 
 
 
-    const proyecuno = "https://leandroezequielpedercini.github.io/Proyecto-integrador/"
+    const urlproyecuno = "https://leandroezequielpedercini.github.io/Proyecto-integrador/"
 
-    document.getElementById("proyecto-uno",addEventListener("click", function(){
-        window.open(proyecuno)
-    }
+    document.getElementById("primerProyecto",addEventListener("click", function(){
+        console.log(urlproyecuno )
+  
+}
             ))
 
 
     const proyecdos = "https://leandroezequielpedercini.github.io/Suma/"
 
     document.getElementById("proyecto-dos",addEventListener("click", function(){
-        window.open(proyecdos)
+  
     }
             ))
 
@@ -86,10 +87,7 @@ formulario.innerHTML = `
 
 </form>`
 
-    const flechaAbajo = document.getElementById("icono")
-    flechaAbajo.innerHTML = `<div class="flecha-abajo"  > <img src="icono/flecha.jpg" alt="flecha para abajo" </div> >`
-
-
+    
     document.getElementById("icono", addEventListener("click", function() {
         
     }))
@@ -98,6 +96,10 @@ formulario.innerHTML = `
 
 const footer = document.getElementById("footer")
 footer.innerHTML = `<div class="lostresparrafos">
-<p class="parrago-fotter-uno">Desarrollador web<p/> <p class="parrago-fotter-dos">Front.End👨‍💻<p/>
+ <p class="parrago-fotter-uno">Desarrollador web<p/> 
+ 
+ <p class="parrago-fotter-dos">Front.End👨‍💻<p/>
 
-<p class="parrago-fotter-tres"> Leandro Ezequiel Pedercini<p/>div/>`
+
+  <p class="parrago-fotter-tres">Leandro Ezequiel Pedercini<p/>
+`
