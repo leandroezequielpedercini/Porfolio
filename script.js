@@ -12,28 +12,32 @@ header.innerHTML = `
 
 </div>`
 
+    
 
+/* const tituloproyecto = document.getElementById("titulo-proyecto")
+tituloproyecto.innerHTML = `<h1 class="titulo-proyectos">PROYECTOS</h1>`
+ */
     /* Tarjetas */
 let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">
 
     <div class="div-tarjetas-uno" >
-      <h1 class="nombre-proyecto-1" > Proyecto 1 </h1>
+      <h1 class="nombre-proyecto-1" > PROYECTO 1 </h1>
       <img id="primerProyecto" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
        </div>  
      
     <div class="div-tarjetas-dos" >
-    <h1 class="nombre-proyecto-1" >Proyecto 2</h1>
+    <h1 class="nombre-proyecto-1" > PROYECTO 2 </h1>
      <img id="proyecto-dos" src="tarjetas/proyecto2.jpg" alt="Proyecto dos" class="tarjeta2">
       </div>
 
     <div class="div-tarjetas-tres" >
-    <h1 class="nombre-proyecto-3" >Proyecto 3</h1>
+    <h1 class="nombre-proyecto-3" > PROYECTO 3</h1>
      <img id="proyecto-tres" src="tarjetas/proyecto3.jpg" alt="Proyecto tres" class="tarjeta3">
       </div>
 
      </div>` 
-
+/* 
 
     const urlproyecuno = "https://leandroezequielpedercini.github.io/Proyecto-integrador/"
 
@@ -52,9 +56,8 @@ tarjetas.innerHTML = `<div class="tarjetas">
             ))
 
     const proyectres = "https://leandroezequielpedercini.github.io/Deadpool/"
-
+ */
     
-
     
     /* Formulario */
 const formulario = document.getElementById("formulario")

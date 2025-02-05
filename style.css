@@ -6,6 +6,8 @@
 body{
     background-color: rgb(255, 253, 253);
     border: solid blue;
+    height: auto
+    
 }
 
      /* Imagen */
@@ -46,6 +48,12 @@ body{
     margin-left: 20px;
 }
 
+.titulo-proyectos{
+    margin-left: 750px;
+    font-size: 60px;
+    text-decoration:underline;
+}
+
 
 .tarjetas{
  text-align: center;
@@ -53,28 +61,45 @@ body{
  gap: 20px;
  scale: 50%;
  margin-left: -500px;
+ margin-top: -200px;
  
  }
 
 
 .div-tarjetas-uno{
 
+    color: black;
+    font-weight: bolder;
+    text-decoration:underline;
+    font-size: 30px;
+    border: solid red 10px;
         
     
 }
 
+.div-tarjetas-dos{
+    background-color: rgb(71, 99, 255);
+    color: white;
+    font-weight: bolder;
+    text-decoration:underline;
+    font-size: 30px;
+    border: solid red 10px;
+}
 
+.div-tarjetas-tres{
+    background-color: rgb(71, 99, 255);
+    color: white;
+    font-weight: bolder;
+    text-decoration:underline;
+    font-size: 30px;
+    border: solid red 10px;
+}
 
 
 .nombre-proyecto-1{
-    
+  border: ;      
 }
 
-
-
-.div-tarjetas-dos{
-     
-}
 
 .nombre-proyecto-2{
     
@@ -86,6 +111,11 @@ body{
 
 }
 
+.titulo-formulario{
+    margin-left: 750px;
+    font-size: 60px;
+    text-decoration:underline;
+}
 
 
 .formulario{
@@ -93,10 +123,15 @@ body{
     gap: 20px;
     margin-left: 10%;
     width: 50%;
-    margin-top:150px;
+    margin-top:-170px;
     
 }
 
+
+.lostresparrafos{
+    background-color: red;
+    margin-top: 50px;
+}
 
 .parrago-fotter-uno{
     margin-left: -200px;
@@ -145,17 +180,18 @@ body{
 @media  (max-width: 700px) {
     
     body{
+        display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        height: 1510px;    
+        height: 1838px;
     }
 
     .img{
-    height: 1210px;
+    
         width: 1090px;
         scale: 20%;
-        margin-top: -480px;
-        margin-left: -430px;
+        margin-top: -274px;
+        margin-left: -300px;
         border: solid 20px rgb(0, 0, 0)
     }
 
@@ -163,14 +199,14 @@ body{
         height: 20px;
         font-size: 30px;
         width: 50px;
-        margin-top: 290px;
-        margin-left: -680px;
+        margin-top: 167px;
+        margin-left: -499px;
         text-decoration:underline;
     }    
 
     .parrafo{
         
-        padding-top: 320px;
+        padding-top: 200px;
         margin-left: -50px;
         font-size: 20px;
         color: blue;
@@ -185,24 +221,28 @@ body{
        
     }
 
-
+    .titulo-proyectos{
+        background-color: red;
+    }
 
     .tarjetas{
+    justify-content: center;
     display: grid;
     scale: 20%;
-    margin-left: -150px;
-    margin-top: -1050px;
+    margin-left: -2800px;
+    margin-top: -560px;
     gap: 100px;
     }
 
 
     .formulario{
-        margin-top: -750px;
+        margin-top: -790px;
+        margin-left: -9000px;
     }
 
     .parrago-fotter-uno{
         font-size: 12px;
-        margin-left: -330px; 
+        margin-left: -380px; 
         
     }
 
@@ -218,5 +258,9 @@ body{
 
                 .lostresparrafos{
                     justify-content: center;
-                }
+                    margin-top: 1790px;
+                    margin-left: -623px;
+                    scale: 100%;
+                    
+                               } 
 }    
