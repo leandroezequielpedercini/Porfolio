@@ -177,13 +177,17 @@ body{
 }
 
 
-@media  (max-width: 605px) {
+@media  (max-width: 700px) {
     
     body{
+        margin-left: -25px;
+        margin-top: -30px;    
         display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        height: 1838px;
+        height: -1857px;
+        scale: 90%;
+        width: 545px;
     }
 
     .img{
@@ -245,7 +249,7 @@ body{
 
     .parrago-fotter-uno{
         font-size: 12px;
-        margin-left: -370px; 
+        margin-left: -352px; 
         
     }
 
@@ -261,10 +265,9 @@ body{
 
                 .lostresparrafos{
                     justify-content: center;
-                    margin-top: 1775px;
-                    margin-left: -610px;
-                    scale: 163%;
+                    margin-top: 1838px;
+                    margin-left: -628px;
+                    scale: 152%;
                     width: 10px;
-                
-                               } 
+                        } 
 }    
