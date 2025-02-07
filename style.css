@@ -184,7 +184,6 @@ body{
         background-color: rgb(255, 253, 253);
         border: solid blue;
         height: 1838px;
-        scale: 550%;
     }
 
     .img{
@@ -262,10 +261,10 @@ body{
 
                 .lostresparrafos{
                     justify-content: center;
-                    margin-top: 1786px;
-                    margin-left: -684px;
-                    scale: 120%;
-                    width: 5px;
+                    margin-top: 1792px;
+                    margin-left: -695px;
+                    scale: 50%;
+                    width: 35px;
                 
                                } 
 }    
