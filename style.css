@@ -177,7 +177,7 @@ body{
 }
 
 
-@media  (max-width: 800px) {
+@media  (max-width: 605px) {
     
     body{
         display: flex;
@@ -261,10 +261,10 @@ body{
 
                 .lostresparrafos{
                     justify-content: center;
-                    margin-top: 1792px;
-                    margin-left: -695px;
-                    scale: 50%;
-                    width: 35px;
+                    margin-top: 1775px;
+                    margin-left: -610px;
+                    scale: 163%;
+                    width: 10px;
                 
                                } 
 }    
