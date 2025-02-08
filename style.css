@@ -177,7 +177,7 @@ body{
 }
 
 
-@media  (max-width: 700px) {
+@media  (max-width: 1000px) {
     
     body{
         margin-left: -32px;
