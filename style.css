@@ -180,14 +180,15 @@ body{
 @media  (max-width: 700px) {
     
     body{
-        margin-left: -25px;
-        margin-top: -30px;    
+        margin-left: -32px;
+        margin-top: -130px;    
         display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        height: -1857px;
-        scale: 90%;
+        height: -2110px;
+        scale: 86%;
         width: 545px;
+        
     }
 
     .img{
