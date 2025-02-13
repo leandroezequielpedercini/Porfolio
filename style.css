@@ -61,39 +61,74 @@ body{
  gap: 20px;
  scale: 50%;
  margin-left: -500px;
- margin-top: -200px;
+ margin-top: -120px;
  
  }
 
 
 .div-tarjetas-uno{
-
     color: black;
     font-weight: bolder;
     text-decoration:underline;
     font-size: 30px;
-    border: solid red 10px;
-        
-    
+    border: solid black 10px;
+    height: 800px;
+     }
+
+.btn-proyecto1{
+    scale: 300%;
+    margin-top: 30px;
+    background-color: aqua ;
+    border: solid  3px;
 }
+
+
+:hover .btn-proyecto1{
+    cursor: pointer;
+}
+
 
 .div-tarjetas-dos{
-    background-color: rgb(71, 99, 255);
-    color: white;
+    color: black;
     font-weight: bolder;
     text-decoration:underline;
     font-size: 30px;
-    border: solid red 10px;
+    border: solid black 10px;
+    height: 800px;
 }
 
+
+ .btn-proyecto2{
+    scale: 300%;
+    margin-top: 30px;
+    background-color: aqua ;
+    border: solid  3px;
+}
+
+:hover .btn-proyecto2{
+    cursor: pointer;
+}
+
+
 .div-tarjetas-tres{
-    background-color: rgb(71, 99, 255);
-    color: white;
+    color: black;
     font-weight: bolder;
     text-decoration:underline;
     font-size: 30px;
-    border: solid red 10px;
-}
+    border: solid black 10px;
+    height: 800px;}
+
+    .btn-proyecto3{
+        scale: 300%;
+        margin-top: 30px;
+        background-color: aqua ;
+        border: solid  3px;
+    }
+
+
+    :hover .btn-proyecto3{
+        cursor: pointer;
+    }
 
 
 .nombre-proyecto-1{
@@ -177,6 +212,7 @@ body{
 }
 
 
+<<<<<<< HEAD
 @media  (max-width: 1000px) {
     
     body{
@@ -189,6 +225,18 @@ body{
         scale: 86%;
         width: 545px;
         background: rgb(16, 0, 41);
+=======
+@media  (max-width: 500px) {
+    
+    body{
+           
+        display: flex;
+        background-color: rgb(255, 253, 253);
+        border: solid blue;
+   
+   
+        
+>>>>>>> b01b5be (.)
     }
 
     .img{
@@ -241,7 +289,7 @@ body{
 
 
     .formulario{
-        margin-top: 1200px;
+        margin-top: 1400px;
         margin-left: -630px;
 
         scale: 140%;
@@ -258,6 +306,7 @@ body{
         font-size: 12px;
         margin-left: 10px;
         
+        
             }
             
             .parrago-fotter-tres{
@@ -266,9 +315,9 @@ body{
 
                 .lostresparrafos{
                     justify-content: center;
-                    margin-top: 1838px;
-                    margin-left: -628px;
-                    scale: 152%;
+                    margin-top: 2106.5px;
+                    margin-left: -672px;
+                    scale: 128.2%;
                     width: 10px;
                         } 
 }    
