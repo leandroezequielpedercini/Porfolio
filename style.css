@@ -212,20 +212,6 @@ body{
 }
 
 
-<<<<<<< HEAD
-@media  (max-width: 1000px) {
-    
-    body{
-        margin-left: -32px;
-        margin-top: -130px;    
-        display: flex;
-        background-color: rgb(255, 253, 253);
-        border: solid blue;
-        height: -2110px;
-        scale: 86%;
-        width: 545px;
-        background: rgb(16, 0, 41);
-=======
 @media  (max-width: 500px) {
     
     body{
@@ -236,7 +222,6 @@ body{
    
    
         
->>>>>>> b01b5be (.)
     }
 
     .img{
