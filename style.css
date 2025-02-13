@@ -132,7 +132,7 @@ body{
 
 
 .nombre-proyecto-1{
-  border: ;      
+
 }
 
 
@@ -212,7 +212,7 @@ body{
 }
 
 
-@media  (max-width: 500px) {
+@media  (max-width: 900px) {
     
     body{
            
