@@ -212,14 +212,14 @@ body{
 }
 
 
-@media  (max-width: 500px) {
+@media  (max-width: 800px) {
     
     body{
            
         display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        width:115%;
+        width: 736px;
         background-color: red;
    
    
