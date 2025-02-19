@@ -56,22 +56,22 @@ const formulario = document.getElementById("formulario")
 formulario.innerHTML = `
 <form action="" class="formulario">
 
-<label>Nombre de la empresa</label> <input type="text" maxlength="20"required placeholder="Ingresar el nombre de la empresa">
+<label>Nombre de la empresa</label> <input class="input-uno" type="text" maxlength="20"required placeholder="Ingresar el nombre de la empresa">
 
 
-<label>Nombre</label> <input type="text" maxlength="20"required placeholder=" El nombre de la persona que llene por formulario" > 
+<label>Nombre</label> <input class="input-nombre" type="text" maxlength="20"required placeholder=" El nombre de la persona que llene por formulario" > 
 
 
-<label>Apellido</label> <input type="text"maxlength="20"required placeholder="Ingresar apellido" >
+<label>Apellido</label> <input class="input-apellido" type="text"maxlength="20"required placeholder="Ingresar apellido" >
 
 
-<label>E-mail</label> <input type="email"maxlength="35"required placeholder="E-mail de la persona"> 
+<label>E-mail</label> <input class="input-Emails" type="email"maxlength="35"required placeholder="E-mail de la persona"> 
 
 
-<label>Pais</label>
+<label class="input-pais">Pais</label>
 
 
-<select required>
+<select required class="input-paises">
     <option value="">Argentina</option>
     <option value="">Brasil</option>
     <option value="">Chile</option>
@@ -80,7 +80,7 @@ formulario.innerHTML = `
     <option value="">México</option>
 <select>
 
-<textarea placeholder="" minlength="10" maxlength="2000" class="textArea" ></textarea  >
+<textarea class="input-texto" placeholder="" minlength="10" maxlength="2000" class="textArea" ></textarea  >
 
 </form>`
 

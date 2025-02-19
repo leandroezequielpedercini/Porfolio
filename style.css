@@ -233,12 +233,20 @@ body{
 }
 
 @media  (max-width:  400px) {
-    
+
+    .link-Mis-Proyectos{
+        background-color: green;
+        margin-left: -10px;
+        scale: 70%;
+        margin-left: 114px;
+        margin-top: -6px;
+    }
+
     body{
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        height: 1124px;
-        width: 750px;
+        height: 2100px;
+        width: 380px;
         background-color: rgb(153, 0, 255);
    
    
@@ -249,21 +257,21 @@ body{
     height: 100px;
     width: 100px;
     margin-left: 5px;
-    margin-top: -50px;
+    margin-top: -40px;
         
         
     }
 
     .presentacion{
         font-size: 25px;
-        margin-top: 80px;
+        margin-top: 87px;
         margin-left: -130px;
         
     }    
 
     .parrafo{
         margin-left: -150px;
-        margin-top: 110px;
+        margin-top: 115px;
         font-size: 20px;
         width: 300px;
         font-weight: bold;
@@ -271,30 +279,70 @@ body{
 
 
     .parrafo-uno{
-       
+    
     }
 
-    .titulo-proyectos{
+    .titulo-trabajos{
         background-color: red;
+        margin-top: -5px;
     }
 
     .tarjetas{
-    justify-content: center;
-    display: grid;
-    scale: 20%;
-    margin-left: -780px;
-    margin-top: -500px;
-    gap: 100px;
+        display: grid;
+        gap: 10px;
+        margin-top: -460px;
+        scale: 45%;
+        margin-left: -50px;
     }
 
+
+    .titulo-formulario{
+      margin-left: 50px;
+      margin-top: -400px;
+        color: red;
+    }
 
     .formulario{
-        margin-top: 1400px;
-        margin-left: -630px;
-
-        scale: 140%;
-     
+    margin-top: -30px;
+    height: 100px;
+    width: 200%;
+    width: 100px;
+    background-color: red;
     }
+
+    .input-uno{
+        background: greenyellow;
+        width: 332px;
+    }
+     
+    .input-nombre{
+        background: greenyellow;
+        width: 332px;
+    }
+
+    .input-apellido{
+        background: greenyellow;
+        width: 332px;
+    }
+
+    .input-Emails{
+        background: greenyellow;
+        width: 332px;
+    }
+
+
+    .input-pais{
+        background: rgb(68, 47, 255);
+        width: 339px;
+    }
+
+    .input-texto{
+        background: greenyellow;
+        width: 330px;
+        height: 200px;
+    }
+
+
 
     .parrago-fotter-uno{
         font-size: 12px;
