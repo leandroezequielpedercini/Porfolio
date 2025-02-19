@@ -232,14 +232,15 @@ body{
     width: 1100px;
 }
 
-@media  (max-width:  500px) {
+@media  (max-width:  700px) {
     
     body{
            
         display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        width: 463px;
+        height: 1124px;
+        width: 750px;
         background-color: rgb(153, 0, 255);
    
    
