@@ -235,8 +235,6 @@ body{
 @media  (max-width:  700px) {
     
     body{
-           
-        display: flex;
         background-color: rgb(255, 253, 253);
         border: solid blue;
         height: 1124px;
@@ -248,12 +246,12 @@ body{
     }
 
     .img{
-    
-        width: 1090px;
-        scale: 20%;
-        margin-top: -274px;
-        margin-left: -300px;
-        border: solid 20px rgb(0, 0, 0)
+    height: 140px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: -50px;
+        
+        
     }
 
     .presentacion{
@@ -261,6 +259,7 @@ body{
         font-size: 30px;
         width: 50px;
         margin-top: 167px;
+
         margin-left: -499px;
         text-decoration:underline;
     }    
