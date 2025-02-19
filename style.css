@@ -232,7 +232,7 @@ body{
     width: 1100px;
 }
 
-@media  (max-width:  350px) {
+@media  (max-width:  400px) {
     
     body{
         background-color: rgb(255, 253, 253);
@@ -256,12 +256,16 @@ body{
 
     .presentacion{
         font-size: 25px;
-        margin-top: -60px;
+        margin-top: 80px;
+        margin-left: -150px;
         
     }    
 
     .parrafo{
-    
+        display: grid;
+        margin-left: -200px;
+        font-size: 20px;
+        
     } 
 
 
