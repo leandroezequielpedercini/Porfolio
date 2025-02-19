@@ -1,4 +1,9 @@
-    /* Titulo */
+const proyectoPropio = document.getElementById("linkMisproyectos")
+proyectoPropio.innerHTML = `<nav class="link-Mis-Proyectos"> <a href="">Mis proyectos</a> </nav>`
+
+
+
+/* Titulo */
 let header = document.getElementById("header")
 header.innerHTML = `
 <div class="div-header"> 
@@ -12,7 +17,8 @@ header.innerHTML = `
 
 </div>`
 
-    
+    const tituloCartas = document.getElementById("titulo-cartas")
+    tituloCartas.innerHTML = ` <h1 class="titulo-trabajos">Trabajos</h1>`
 
 
     /* Tarjetas */
@@ -20,36 +26,32 @@ let tarjetas = document.getElementById("tarjetas")
 tarjetas.innerHTML = `<div class="tarjetas">
 
     <div class="div-tarjetas-uno" >
-      <h1 class="nombre-proyecto-1" > PROYECTO 1 </h1>
-      <img id="primerProyecto" src="tarjetas/proyecto1.jpg" alt="Proyecto uno" class="tarjeta1">
-      <button id="btn-proyecto-1" class="btn-proyecto1" type="submit">Entrar al proyecto</button>
+      <h1 class="nombre-proyecto-1" > Pagina web 1 </h1>
+      <img id="web-uno" src="" alt="Pagina web 1" class="tarjeta1">
+      <button id="btn-proyecto-1" class="btn-proyecto1" type="submit" onclick="btn1()" >Entrar al proyecto</button nombre>
       </div>  
      
     <div class="div-tarjetas-dos" >
-    <h1 class="nombre-proyecto-1" > PROYECTO 2 </h1>
-     <img id="proyecto-dos" src="tarjetas/proyecto2.jpg" alt="Proyecto dos" class="tarjeta2">
+    <h1 class="nombre-proyecto-1" > Pagina web 2</h1>
+     <img id="web-dos" src="" alt="Pagina web 2" class="tarjeta2">
      <button class="btn-proyecto2" type="submit">Entrar al proyecto</button>
      </div>
 
     <div class="div-tarjetas-tres" >
-    <h1 class="nombre-proyecto-3" > PROYECTO 3</h1>
-     <img id="proyecto-tres" src="tarjetas/proyecto3.jpg" alt="Proyecto tres" class="tarjeta3">
+    <h1 class="nombre-proyecto-3" > Pagina web 3</h1>
+     <img id="web-tres" src="" alt="Proyecto tres" class="tarjeta3">
      <button class="btn-proyecto3" type="submit">Entrar al proyecto</button> 
      </div>
 
      </div>
-     ` 
+` 
 
 
-    
-
-   const boton1 = document.getElementById("btn-proyecto-1",addEventListener("click", () =>{
-   console.log(2 + 2)
-}
-            ))
+const tituloFormulario = document.getElementById("titulo-formulario")
+tituloFormulario.innerHTML = `<h1 class="titulo-formulario">Formulario</h1>`
 
 
-    /* Formulario */
+   /* Formulario */
 const formulario = document.getElementById("formulario")
 formulario.innerHTML = `
 <form action="" class="formulario">
@@ -77,6 +79,8 @@ formulario.innerHTML = `
     <option value="">Perú</option>
     <option value="">México</option>
 <select>
+
+<textarea placeholder="" minlength="10" maxlength="2000" class="textArea" ></textarea  >
 
 </form>`
 
