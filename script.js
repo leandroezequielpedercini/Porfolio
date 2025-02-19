@@ -1,5 +1,5 @@
 const proyectoPropio = document.getElementById("linkMisproyectos")
-proyectoPropio.innerHTML = `<nav class="link-Mis-Proyectos"> <a href="">Mis proyectos</a> </nav>`
+proyectoPropio.innerHTML = `<nav class="link-Mis-Proyectos"> <a href="/misproyectos">Mis proyectos</a> </nav>`
 
 
 
