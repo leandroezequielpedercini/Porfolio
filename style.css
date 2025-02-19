@@ -221,7 +221,7 @@ body{
 @media  (max-width:  500px) {
 
     .link-Mis-Proyectos{
-        background-color: green;
+        background-color: red;
         margin-left: -10px;
         scale: 70%;
         margin-left: 114px;
@@ -231,9 +231,9 @@ body{
     body{
         background-color: rgb(255, 253, 253);
         border: solid blue;
-        height: 2100px;
+        height: 2040px;
         width: 465px;
-        background-color: rgb(153, 0, 255);
+        
    
    
         
@@ -267,7 +267,6 @@ body{
  
 
     .titulo-trabajos{
-        background-color: red;
         margin-top: -5px;
     }
 
@@ -283,7 +282,7 @@ body{
     .titulo-formulario{
       margin-left: 50px;
       margin-top: -400px;
-        color: red;
+        
     }
 
     .formulario{
@@ -291,37 +290,36 @@ body{
     height: 100px;
     width: 200%;
     width: 100px;
-    background-color: red;
+    
     }
 
     .input-uno{
-        background: greenyellow;
+        
         width: 332px;
     }
      
     .input-nombre{
-        background: greenyellow;
+        
         width: 332px;
     }
 
     .input-apellido{
-        background: greenyellow;
+        
         width: 332px;
     }
 
     .input-Emails{
-        background: greenyellow;
+        
         width: 332px;
     }
 
 
     .input-pais{
-        background: rgb(68, 47, 255);
+        
         width: 339px;
     }
 
     .input-texto{
-        background: greenyellow;
         width: 330px;
         height: 200px;
     }
@@ -347,10 +345,7 @@ body{
                 margin-left: 10px; }
 
                 .lostresparrafos{
-                    justify-content: center;
-                    margin-top: 2106.5px;
-                    margin-left: -672px;
-                    scale: 128.2%;
-                    width: 10px;
+                   margin-top: 610px;
+                   justify-content: center;
                         } 
 }    
