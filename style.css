@@ -1,33 +1,41 @@
     /* Totalidad de la pagina */
 *{
 
-.link-Mis-Proyectos{
-    background-color: red;
-    font-weight: bold;
-    width: 300px;
-    font-size: 35px;
-    margin-left: 1565px;
-    margin-top: 5px;
-    text-align: center;
-    border: solid 5px;
-}
-
 
 }
 
 body{
-    background-color: rgb(255, 253, 253);
+    background-color: #85afff;
     border: solid blue;
-    height: auto
-    
+    height: auto;
+    animation-name: body;
+    animation-duration: 2s;
 }
+
+
+.parrafo-nombre{
+font-size: 70px;
+margin-left: 300px ;
+
+}
+
+.nombreCompleto{
+margin-top: 200px;
+margin-left: -770px;
+text-decoration: underline;
+font-size: 70px;
+
+}
+
 
      /* Imagen */
     .img{
-    width: 25%;
-    margin-left: 6%;
-    margin-top: 2%;
-    border: solid 20px rgb(0, 0, 0)    }
+    height: 300px;
+    width: 300px;
+    margin-left: 1300px;
+    margin-top: -300px;
+    border: solid 20px rgb(0, 0, 0);    
+    }
 
 
 .div-header{
@@ -38,22 +46,37 @@ body{
 
         /* Presentación */
 .presentacion{
-    padding-top: 3.5%;
-    margin-left: 5%;
-    text-decoration:underline;
+font-size: 40px;
+margin-left: 5%;
+text-decoration:underline;
 }
 
 
     /* Pararrofo */
-.parrafo{
-    padding-top: 4%;
-    padding-left: 0.5%;
-    font-size: 30px;
-    color: blue;
-    font: bolder;
-    text-decoration: underline solid 4px;
+.parrafoDos{
+margin-left: 90px;
+width: 700px;    
+font-size: 30px;
+color: blue;
+font: bolder;
+text-decoration: underline solid 4px;
 } 
 
+
+
+.parrafoTres{
+    margin-left: 1290px;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: -250px;
+    background: rgb(214, 214, 214);
+    width: 390px;
+    text-decoration: underline;
+}
+
+:hover .parrafoTres{
+    cursor: pointer;
+}
 
 
 .parrafo-uno{
@@ -217,6 +240,21 @@ body{
     height: 200px;
     width: 1100px;
 }
+
+
+
+
+
+
+@keyframes body {
+   100%{
+     
+   } 
+   
+}
+
+
+
 
 @media  (max-width:  500px) {
 

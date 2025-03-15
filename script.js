@@ -1,25 +1,27 @@
-const proyectoPropio = document.getElementById("linkMisproyectos")
-proyectoPropio.innerHTML = `<nav class="link-Mis-Proyectos"> <a href="/misproyectos">Mis proyectos</a> </nav>`
-
-
-
 /* Titulo */
 let header = document.getElementById("header")
 header.innerHTML = `
-<div class="div-header"> 
+<div class="div-header">   
+     <p class="parrafo-nombre" >HOLA, MI NOMBRE ES <h1 class="nombreCompleto">Leandro Ezequiel Pedercini</h1> </p>
+     
+     </div>`
 
-    <img src="header/img/imagen.jpeg" alt="Imagen" class="img">
+    const imagen = document.getElementById("img")
+    imagen.innerHTML = `<img src="header/img/imagen.jpeg" alt="Leandro Ezequiel Pedercini" class="img"  >
+`
+    const parrafo1 = document.getElementById("parrafoUno")
+    parrafo1.innerHTML = `<p class="presentacion"> Presentacíon:  </p>`
     
-    <h1 class="presentacion">Presentación: </h1>
-    <p class="parrafo">Hola mi nombre es Leandro y hace ya cuatro años que estoy estudiando programación, se html, css, javascript, me especializo en la parte del Fronted, actualmente sigo perfeccionadome. Me gustaria poder tener experiencia laboral, ya que los unicos proyectos que realice fueron por mi cuenta.
+    const parrafo2 = document.getElementById("parrafoDos")
+    parrafo2.innerHTML = `<p class="parrafoDos"> Soy estudiante de Front-End, con conocimientos de html, css y JavaScript y boostrap, en el caso de frameworks.
+    Me considero una persona paciente y proactiva con ganas seguir aprendiendo y perfeccioname profesionalmente.  </p>`
 
-</p>
+    const parrafo3 = document.getElementById("parrafoTres")
+    parrafo3.innerHTML = `<p class="parrafoTres"> MIS TRABAJOS:  </p>`
 
-</div>`
 
     const tituloCartas = document.getElementById("titulo-cartas")
     tituloCartas.innerHTML = ` <h1 class="titulo-trabajos">Trabajos</h1>`
-
 
     /* Tarjetas */
 let tarjetas = document.getElementById("tarjetas")
